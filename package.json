@@ -1,0 +1,20 @@
+{
+  "name": "secret-node",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node-dev ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.18.1",
+    "morgan": "~1.8.1",
+    "pug": "~2.0.0-beta11",
+    "qiniu": "^7.0.9",
+    "serve-favicon": "~2.4.2"
+  }
+}
